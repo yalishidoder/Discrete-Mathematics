@@ -1,0 +1,37 @@
+程序典型测试用例：
+1. !a&b|c^d~e
+2. (a~b)|c&d
+3. ((a~b)|c)&d
+4. (a~a)|a&b
+
+程序运行测试用例：(a~b)
+
+formula   
+(a~b)
+
+c/p     (char)
+(            
+a          
+~
+b
+)
+------------------
+(            
+a           
+~
+b
+)
+
+pset/proposition    (map)
+0    a
+1    b
+
+opter   (stack)
+0   #
+1   (
+2   ~
+3   )
+
+pvalue  (stack) 
+0  0
+1  0

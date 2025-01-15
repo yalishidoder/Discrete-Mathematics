@@ -1,0 +1,108 @@
+12 
+1  2  3  4  6  12
+18
+1  2  3  6  9  18
+
+12
+12 36 ...
+18
+18 36 ...
+
+ak1=xa
+bk2=c
+abk3=cxa  (k3=k1*k2)
+
+n=1
+gcd(0,1)=1
+
+n=2
+gcd(0,2)=2
+gcd(1,2)=1
+
+n=3
+gcd(0,3)=3
+gcd(1,3)=1
+gcd(2,3)=1
+
+n=4
+gcd(0,4)=4
+gcd(1,4)=1
+gcd(2,4)=2
+gcd(3,4)=1
+
+
+
+
+1、同阶矩阵加减运算是封闭的。
+2、方阵对矩阵乘法是封闭的。
+3、同阶上（下）三角矩阵，对矩阵的加减乘，都是封闭的。
+4、同阶对角阵，对矩阵的加减乘，都是封闭的。
+
+ax+b=0
+ax^2+bx+c=0
+ax^3+bx^2+cx+d=0
+ax^4+bx^3+cx^2+dx+e=0
+ax^5+bx^4+cx^3+dx^2+ex+f=0
+
+
+B={1,2}
+P(B)={@,{1},{2},{1,2}}
+
+el ∘ x = x  ( 或 x ∘ er = x )
+θl ∘ x =θl  ( 或 x ∘θr =θr )
+yl ∘ x = e（或 x ∘ yr = e）
+
+交换律：
+x*y=y*x
+a  a
+b  b
+c  c
+
+结合律：
+(x*y)*z=x*(y*z)
+a  a   a
+b  b   b
+c  c   c
+
+幂等率：
+x*x=x
+a  a
+b  b
+c  c
+
+(x∘y)∘z=x∘(y∘z)
+y∘z  =   x∘z
+z  =     z
+
+el ∘ x = x
+x=x
+
+x ∘ er = x
+er=x?
+
+f(xy)=axya^-1
+f(x)=axa^-1
+f(y)=aya^-1
+f(x)f(y)=axa^-1aya^-1=axya^-1=f(xy)
+
+e * x = x = e + x - ex
+e(1-x)=0 => e=0
+
+x*y=x+y-xy
+x*x^-1=x+x^-1-x x^-1=e=0
+(x-1)x^-1=x
+x^-1=x/(x-1)
+
+A.
+(a*b)*c=(a-b)*c=a-b-c
+a*(b*c)=a*(b-c)=a-(b-c)=a-b+c
+
+C.
+(a*b)*c=(a+2b)*c=a+2b+2c
+a*(b*c)=a*(b+2c)=a+2(b+2c)=a+2b+4c
+
+D.
+(a*b)*c=(|a-b|)*c=||a-b|-c|
+a*(b*c)=a*(|b-c|)=|a-|b-c||
+令a=1，b=2，c=3，则：(a*b)*c=2，a*(b*c)=0
+(a*b)*c不等于a*(b*c)
